@@ -1,20 +1,23 @@
 'use strict';
 const alfy = require('alfy');
-const { readdirSync } = require('fs')
 const homedir = require('os').homedir();
 
-const getDirectories = source =>
-  readdirSync(source, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name)
+const { getDirectories, trimProjectName } = require( './helpers' );
 
-const directories = getDirectories( `${ homedir }/Projects/www` );
+const filterArg = process.argv.slice( 2 );
 
-alfy.output( directories.map( dir => (
+const directories = getDirectories( `${ homedir }/projects/www` )
+	.filter( dirName => dirName.includes( filterArg ) );
+
+alfy.output( directories.map( dirName => (
 		{
-			title: dir,
+			title: trimProjectName( dirName ),
 			subtitle: 'Open folder in VSCode',
-			arg: `${ homedir }/Projects/www/${ dir }`
+			arg: `${ homedir }/projects/www/${ dirName }`,
+			icon: {
+				type: "png",
+				path: "./folder.png"
+			}
 		}
 	)
 ) );
