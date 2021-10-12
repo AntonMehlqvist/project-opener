@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --global alfred-project-selector
+$ npm install --global alfred-ac-project-selector
 ```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
@@ -14,7 +14,7 @@ $ npm install --global alfred-project-selector
 
 ## Usage
 
-In Alfred, type `po`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `<`, <kbd>Space</kbd>, and your query(optional).
 
 
 ## License
