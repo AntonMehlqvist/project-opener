@@ -7,15 +7,14 @@ const getDirectories = source =>
   readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
-	
-const directories = getDirectories( `${ homedir }/Projects` );
+
+const directories = getDirectories( `${ homedir }/Projects/www` );
 
 alfy.output( directories.map( dir => (
 		{
 			title: dir,
 			subtitle: 'Open folder in VSCode',
-			arg: `${ homedir }/Projects/${ dir }`
+			arg: `${ homedir }/Projects/www/${ dir }`
 		}
 	)
 ) );
-	
