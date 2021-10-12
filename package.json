@@ -1,9 +1,9 @@
 {
   "name": "alfred-ac-project-selector",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Select and open projects from the www folder in VSCode",
   "license": "MIT",
-  "repository": "AntonMehlqvist/alfred-project-selector",
+  "repository": "AntonMehlqvist/project-opener",
   "type": "module",
   "author": {
     "name": "Anton Mehlqvist",
