@@ -4,6 +4,7 @@
   "description": "Select and open projects from the www folder in VSCode",
   "license": "MIT",
   "repository": "AntonMehlqvist/alfred-project-selector",
+  "type": "module",
   "author": {
     "name": "Anton Mehlqvist",
     "email": "antonmehlqvist@outlook.com"
@@ -27,7 +28,7 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.6.0"
+    "alfy": "^0.12.1"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",

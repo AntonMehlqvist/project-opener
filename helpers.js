@@ -1,11 +1,11 @@
-const { readdirSync } = require('fs');
+import { readdirSync } from 'fs';
 
-exports.getDirectories = source =>
+export const getDirectories = source =>
 readdirSync(source, { withFileTypes: true })
   .filter(dirent => dirent.isDirectory())
   .map(dirent => dirent.name);
 
-exports.trimProjectName = dirName => {
+export const trimProjectName = dirName => {
     const isAcProject = dirName.includes( 'dev.synot.io' );
 
     if ( isAcProject ) {
