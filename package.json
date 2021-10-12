@@ -1,13 +1,12 @@
 {
-  "name": "alfred-project-selector",
-  "version": "0.0.0",
-  "description": "Select and open project",
+  "name": "alfred-ac-project-selector",
+  "version": "1.0.0",
+  "description": "Select and open projects from the www folder in VSCode",
   "license": "MIT",
   "repository": "AntonMehlqvist/alfred-project-selector",
   "author": {
     "name": "Anton Mehlqvist",
-    "email": "antonmehlqvist@outlook.com",
-    "url": "none"
+    "email": "antonmehlqvist@outlook.com"
   },
   "engines": {
     "node": ">=4"
