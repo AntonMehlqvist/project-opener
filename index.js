@@ -1,13 +1,17 @@
 'use strict';
-const alfy = require('alfy');
-const homedir = require('os').homedir();
+import alfy from 'alfy';
+import os from 'os';
+const homedir = os.homedir();
 
-const { getDirectories, trimProjectName } = require( './helpers' );
+import { getDirectories, trimProjectName } from './helpers.js';
 
-const filterArg = process.argv.slice( 2 );
+const filterArg = process.argv[ 2 ];
 
-const directories = getDirectories( `${ homedir }/projects/www` )
-	.filter( dirName => dirName.includes( filterArg ) );
+let directories = getDirectories( `${ homedir }/projects/www` );
+
+if ( filterArg ) {
+	directories = directories.filter( dirName => dirName.includes( filterArg ) );
+}
 
 alfy.output( directories.map( dirName => (
 		{
@@ -16,7 +20,7 @@ alfy.output( directories.map( dirName => (
 			arg: `${ homedir }/projects/www/${ dirName }`,
 			icon: {
 				type: "png",
-				path: "./folder.png"
+				path: "./icon.png"
 			}
 		}
 	)

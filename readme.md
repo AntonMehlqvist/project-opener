@@ -14,7 +14,7 @@ $ npm install --global alfred-ac-project-selector
 
 ## Usage
 
-In Alfred, type `<`, <kbd>Space</kbd>, and your query(optional).
+In Alfred, type `<`, <kbd> Space</kbd>, and any string to filter by.
 
 
 ## License
