@@ -3,6 +3,7 @@
 ## What does this script do?
 
 It lets you quickly select projects from your `~/projects/www` folder and open them in vscode.
+The path to your projects folder can be configured to you liking by following the instructions under __Usage__.
 
 
 ## Install
@@ -15,6 +16,8 @@ $ npm install --global alfred-ac-project-selector
 
 
 ## Usage
+
+*If your projects are not located in `~/projects/www` you can change the environment variable named `path` in `Alfred preferences->Workflows->project-selector->Configure workflow and variables(located in the top right of the workflow window)`*
 
 In Alfred, type `<`, <kbd> Space</kbd>, and any string to filter by(optional) to see a list of your projects.
 Navigate to the project you want to open and press <kbd>Enter</kbd> to launch your project in vscode.
