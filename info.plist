@@ -114,18 +114,25 @@
 		<key>B230FEC4-1527-47E6-A346-88EFFF441DDA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>490</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>140</integer>
 		</dict>
 		<key>D1599DA1-C16C-4127-907A-4B21C94FE40A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>350</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>140</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>path</key>
+		<string>/projects/www</string>
+	</dict>
+	<key>version</key>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

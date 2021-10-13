@@ -4,10 +4,11 @@ import os from 'os';
 import { readdirSync } from 'fs';
 
 const homedir = os.homedir();
+const projectFolderPath = process.env.path;
 
 const filterArg = process.argv[ 2 ];
 
-let directories = getDirectories( `${ homedir }/projects/www` );
+let directories = getDirectories( `${ homedir }${ projectFolderPath }` );
 
 if ( filterArg ) {
 	directories = directories.filter( dirName => dirName.includes( filterArg ) );
@@ -17,7 +18,7 @@ alfy.output( directories.map( dirName => (
 		{
 			title: trimProjectName( dirName ),
 			subtitle: 'Open folder in VSCode',
-			arg: `${ homedir }/projects/www/${ dirName }`,
+			arg: `${ homedir }${ projectFolderPath }/${ dirName }`,
 			icon: {
 				type: "png",
 				path: "./icon.png"
