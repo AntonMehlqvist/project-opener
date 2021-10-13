@@ -19,6 +19,9 @@ $ npm install --global alfred-ac-project-selector
 In Alfred, type `<`, <kbd> Space</kbd>, and any string to filter by(optional) to see a list of your projects.
 Navigate to the project you want to open and press <kbd>Enter</kbd> to launch your project in vscode.
 
+## Troubleshooting
+Make sure that you have the `code` command installed to your path. To install the `code` command, reference the [official guide](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+
 
 ## License
 
