@@ -1,7 +1,7 @@
 {
   "name": "alfred-ac-project-selector",
-  "version": "1.2.0",
-  "description": "Select and open projects from the www folder in VSCode",
+  "version": "1.3.0",
+  "description": "Select and open projects from the www folder in VSCode, iTerm, Finder or a combination of them.",
   "license": "MIT",
   "repository": "AntonMehlqvist/project-opener",
   "type": "module",

@@ -17,8 +17,8 @@ if ( filterArg ) {
 alfy.output( directories.map( dirName => (
 		{
 			title: trimProjectName( dirName ),
-			subtitle: 'Open folder in VSCode',
-			arg: `${ homedir }${ projectFolderPath }/${ dirName }`,
+			subtitle: 'Open in VSCode',
+			arg: `${ homedir }${ maybeAddTrailingSlash( projectFolderPath ) }${ dirName }`,
 			icon: {
 				type: "png",
 				path: "./icon.png"
@@ -46,3 +46,7 @@ function trimProjectName( dirName ) {
 
     return dirName;
 };
+
+function maybeAddTrailingSlash( string ) {
+	return string.endsWith("/") ? string : string + "/";
+}

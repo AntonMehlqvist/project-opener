@@ -19,8 +19,17 @@ $ npm install --global alfred-ac-project-selector
 
 *If your projects are not located in `~/projects/www` you can change the environment variable named `path` in `Alfred preferences->Workflows->project-selector->Configure workflow and variables(located in the top right of the workflow window)`*
 
-In Alfred, type `<`, <kbd> Space</kbd>, and any string to filter by(optional) to see a list of your projects.
+In Alfred, type `<`, <kbd>Space</kbd>, and any string to filter by(optional) to see a list of your projects.
 Navigate to the project you want to open and press <kbd>Enter</kbd> to launch your project in vscode.
+
+### Modifiers
+__The selected project can also be opened in iTerm and/or Finder both separately or alongside VSCode using the following modifiers while pressing <kbd>Enter</kbd>:__
+* <kbd>⌘ CMD</kbd> = Open in VSCode & iTerm
+* <kbd>⌘ CMD</kbd>+<kbd>⇧ Shift</kbd> = Open in only iTerm
+* <kbd>⌥ OPTION</kbd> = Open in VSCode & Finder
+* <kbd>⌥ OPTION</kbd>+<kbd>⇧ Shift</kbd> = Open in only Finder
+* <kbd>⌥ OPTION</kbd>+<kbd>⌘ CMD</kbd> = Open in iTerm & Finder
+* <kbd>⌥ OPTION</kbd>+<kbd>⌘ CMD</kbd>+<kbd>⇧ Shift</kbd> = Open in VSCode, iTerm & Finder
 
 ## Troubleshooting
 Make sure that you have the `code` command installed to your path. To install the `code` command, reference the [official guide](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).

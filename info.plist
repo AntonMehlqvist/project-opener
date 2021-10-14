@@ -8,11 +8,21 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>D1599DA1-C16C-4127-907A-4B21C94FE40A</key>
+		<key>249B6611-ACDC-4EF5-8BF9-096F0B6BAF8E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B230FEC4-1527-47E6-A346-88EFFF441DDA</string>
+				<string>7D2F02E3-315E-4207-B739-BCDC490025E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A44AB758-E1D6-409F-B332-3787BE7078B0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,17 +31,177 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3A929CF4-ABD1-4526-806C-EE22F3256209</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D2F02E3-315E-4207-B739-BCDC490025E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A44AB758-E1D6-409F-B332-3787BE7078B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8982621-EE74-4203-95C5-E29F5FB527E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>93AC8907-A686-4251-BBF7-055F9660A699</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A44AB758-E1D6-409F-B332-3787BE7078B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8982621-EE74-4203-95C5-E29F5FB527E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>97D370F4-2C05-48AF-A7D1-153B3E6634EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D2F02E3-315E-4207-B739-BCDC490025E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8982621-EE74-4203-95C5-E29F5FB527E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CD702790-7A1B-4111-A832-4591B3F46685</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3A929CF4-ABD1-4526-806C-EE22F3256209</string>
+				<key>modifiers</key>
+				<integer>1703936</integer>
+				<key>modifiersubtext</key>
+				<string>Open in VSCode, iTerm and Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D2F02E3-315E-4207-B739-BCDC490025E1</string>
+				<key>modifiers</key>
+				<integer>655360</integer>
+				<key>modifiersubtext</key>
+				<string>Open in Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>249B6611-ACDC-4EF5-8BF9-096F0B6BAF8E</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Open in both VSCode and Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A44AB758-E1D6-409F-B332-3787BE7078B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>97D370F4-2C05-48AF-A7D1-153B3E6634EE</string>
+				<key>modifiers</key>
+				<integer>1572864</integer>
+				<key>modifiersubtext</key>
+				<string>Open in both iTerm and Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>93AC8907-A686-4251-BBF7-055F9660A699</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in both VSCode and iTerm</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8982621-EE74-4203-95C5-E29F5FB527E3</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>Open in iTerm</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Anton Mehlqvist</string>
 	<key>description</key>
-	<string></string>
+	<string>This workflow lets you quickly select projects from your ~/projects/www folder and open them in VSCode, iTerm, Finder or a combination of them.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>project-selector</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>3A929CF4-ABD1-4526-806C-EE22F3256209</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -42,20 +212,28 @@
 				<key>script</key>
 				<string>query=$1
 
-/usr/local/bin/code $query</string>
+open $query</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>B230FEC4-1527-47E6-A346-88EFFF441DDA</string>
+			<string>7D2F02E3-315E-4207-B739-BCDC490025E1</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>249B6611-ACDC-4EF5-8BF9-096F0B6BAF8E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -102,7 +280,63 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>D1599DA1-C16C-4127-907A-4B21C94FE40A</string>
+			<string>CD702790-7A1B-4111-A832-4591B3F46685</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+/usr/local/bin/code $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A44AB758-E1D6-409F-B332-3787BE7078B0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>97D370F4-2C05-48AF-A7D1-153B3E6634EE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>93AC8907-A686-4251-BBF7-055F9660A699</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/iTerm.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>B8982621-EE74-4203-95C5-E29F5FB527E3</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -111,19 +345,67 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>B230FEC4-1527-47E6-A346-88EFFF441DDA</key>
+		<key>249B6611-ACDC-4EF5-8BF9-096F0B6BAF8E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>495</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>215</integer>
 		</dict>
-		<key>D1599DA1-C16C-4127-907A-4B21C94FE40A</key>
+		<key>3A929CF4-ABD1-4526-806C-EE22F3256209</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>495</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>20</integer>
+		</dict>
+		<key>7D2F02E3-315E-4207-B739-BCDC490025E1</key>
+		<dict>
+			<key>note</key>
+			<string>Open in Finder</string>
+			<key>xpos</key>
+			<integer>785</integer>
+			<key>ypos</key>
+			<integer>75</integer>
+		</dict>
+		<key>93AC8907-A686-4251-BBF7-055F9660A699</key>
+		<dict>
+			<key>xpos</key>
+			<integer>495</integer>
+			<key>ypos</key>
+			<integer>350</integer>
+		</dict>
+		<key>97D370F4-2C05-48AF-A7D1-153B3E6634EE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>285</integer>
+		</dict>
+		<key>A44AB758-E1D6-409F-B332-3787BE7078B0</key>
+		<dict>
+			<key>note</key>
+			<string>Open in VSCode</string>
+			<key>xpos</key>
+			<integer>785</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+		<key>B8982621-EE74-4203-95C5-E29F5FB527E3</key>
+		<dict>
+			<key>note</key>
+			<string>Open in iTerm</string>
+			<key>xpos</key>
+			<integer>785</integer>
+			<key>ypos</key>
+			<integer>435</integer>
+		</dict>
+		<key>CD702790-7A1B-4111-A832-4591B3F46685</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>255</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
